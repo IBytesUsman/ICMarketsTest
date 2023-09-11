@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.DeveloperTest.API", "ICMarkets.DeveloperTest.API\ICMarkets.DeveloperTest.API.csproj", "{2CD68999-54B7-4BF5-85E5-E98EE7BB6DCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{EF595191-EA9F-48BA-9C0E-764A12AF2D65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Developer.Clients.BlockCypher", "ICMarkets.Developer.Clients.BlockCypher\ICMarkets.Developer.Clients.BlockCypher.csproj", "{BBC52D7E-ACD0-4612-BF7E-A4EF78DA6D43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.DeveloperTest.Datacontext", "ICMarkets.DeveloperTest.Datacontext\ICMarkets.DeveloperTest.Datacontext.csproj", "{69DBA650-8A48-4C0E-B3C6-D6BE719CD07F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{D237F1DF-3642-44D1-836A-256965CE8691}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.Developer.Shared.Models", "ICMarkets.Developer.Shared.Models\ICMarkets.Developer.Shared.Models.csproj", "{2F06265B-2E83-4EB3-8182-E38F7B806C64}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{12E876C1-C9F5-443D-A35E-95F19B82AABE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICMarkets.DeveloperTest.FunctionalTest", "ICMarkets.DeveloperTest.FunctionalTest\ICMarkets.DeveloperTest.FunctionalTest.csproj", "{6B9F9D50-3433-48E5-9A22-8BCF92BF1C0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CD68999-54B7-4BF5-85E5-E98EE7BB6DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD68999-54B7-4BF5-85E5-E98EE7BB6DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD68999-54B7-4BF5-85E5-E98EE7BB6DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD68999-54B7-4BF5-85E5-E98EE7BB6DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBC52D7E-ACD0-4612-BF7E-A4EF78DA6D43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBC52D7E-ACD0-4612-BF7E-A4EF78DA6D43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBC52D7E-ACD0-4612-BF7E-A4EF78DA6D43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBC52D7E-ACD0-4612-BF7E-A4EF78DA6D43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69DBA650-8A48-4C0E-B3C6-D6BE719CD07F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69DBA650-8A48-4C0E-B3C6-D6BE719CD07F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69DBA650-8A48-4C0E-B3C6-D6BE719CD07F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69DBA650-8A48-4C0E-B3C6-D6BE719CD07F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F06265B-2E83-4EB3-8182-E38F7B806C64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F06265B-2E83-4EB3-8182-E38F7B806C64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F06265B-2E83-4EB3-8182-E38F7B806C64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F06265B-2E83-4EB3-8182-E38F7B806C64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9F9D50-3433-48E5-9A22-8BCF92BF1C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9F9D50-3433-48E5-9A22-8BCF92BF1C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9F9D50-3433-48E5-9A22-8BCF92BF1C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9F9D50-3433-48E5-9A22-8BCF92BF1C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBC52D7E-ACD0-4612-BF7E-A4EF78DA6D43} = {EF595191-EA9F-48BA-9C0E-764A12AF2D65}
+		{2F06265B-2E83-4EB3-8182-E38F7B806C64} = {D237F1DF-3642-44D1-836A-256965CE8691}
+		{6B9F9D50-3433-48E5-9A22-8BCF92BF1C0E} = {12E876C1-C9F5-443D-A35E-95F19B82AABE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {669AED14-47C6-490F-B936-FE01A1F03E55}
+	EndGlobalSection
+EndGlobal
